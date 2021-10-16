@@ -1,0 +1,52 @@
+@startuml
+title Original UML Sequence Chart (audit_log_records.csv)
+participant LYNKIT_VID order 0
+participant MSO order 1
+participant AAI order 2
+participant SDNCP order 3
+participant OPENSTACK order 4
+participant PINC order 5
+participant NARAD order 6
+MSO->MSO : 1 
+MSO->MSO : 2 
+MSO->AAI : 3 Inventory
+MSO->AAI : 4 Inventory
+LYNKIT_VID->MSO : 5 
+LYNKIT_VID->MSO : 6 
+LYNKIT_VID->MSO : 7 
+LYNKIT_VID->MSO : 8 
+LYNKIT_VID->MSO : 9 
+LYNKIT_VID->MSO : 10 
+LYNKIT_VID->MSO : 11 
+LYNKIT_VID->MSO : 12 
+SDNCP->AAI : 13 
+SDNCP->MSO : 14 
+SDNCP->MSO : 15 
+MSO->OPENSTACK : 16 Instantiate Service
+MSO->MSO : 17 
+MSO->MSO : 18 
+MSO->MSO : 19 
+LYNKIT_VID->MSO : 20 
+MSO->MSO : 21 
+MSO->MSO : 22 
+MSO->AAI : 23 Inventory
+MSO->AAI : 24 Inventory
+MSO->AAI : 25 Inventory
+SDNCP->MSO : 26 
+SDNCP->MSO : 27 
+SDNCP->MSO : 28 
+SDNCP->MSO : 29 
+MSO->SDNCP : 30 VF-Module Assignment
+MSO->SDNCP : 31 VF-Module Assignment
+MSO->SDNCP : 32 VF-Module Assignment
+MSO->SDNCP : 33 VF-Module Assignment
+MSO->PINC : 34 Config Network Fibric
+MSO->PINC : 35 Config Network Fibric
+MSO->NARAD : 36 Inventory
+MSO->NARAD : 37 Inventory
+MSO->NARAD : 38 Inventory
+SDNCP->NARAD : 39 
+PINC->MSO : 40 
+PINC->MSO : 41 
+SDNCP->MSO : 42 
+@enduml

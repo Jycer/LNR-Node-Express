@@ -1,0 +1,4 @@
+@startuml
+title Aggregate Inter Component Logs (porsess s ss1)
+a-c -> b
+@enduml

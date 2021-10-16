@@ -1,0 +1,13 @@
+index,requestID,timestamp,servicename,partnername,sourcetype,LYNKIT
+mso,b7281fc8-94bc-4475-91c0-9287f1c06983,2021-03-28T21:02:49.977Z,onap/so/infra/serviceInstantiation/v7/serviceInstances/56b1cca1-d22e-4e62-8b00-5ca9b3a71947/vnfs/93946891-427a-4c2d-ae70-327a789daa15/vfModules,m32058@prod.lynkit.att.com,domain2:audit,LYNKIT_VID
+aai,b7281fc8-94bc-4475-91c0-9287f1c06983,2021-03-28T21:03:01.872Z,/aai/v23/business/platforms,SO.BPMN,domain2:audit,MSO
+aai,b7281fc8-94bc-4475-91c0-9287f1c06983,2021-03-28T21:03:43.194Z,/aai/v23/business/projects,SO.BPMN,domain2:metrics,MSO
+aai,b7281fc8-94bc-4475-91c0-9287f1c06983,2021-03-28T21:03:43.357Z,/aai/v23/business/projects,SO.BPMN,domain2:audit,MSO
+aai,b7281fc8-94bc-4475-91c0-9287f1c06983,2021-03-28T21:03:43.524Z,/aai/v23/business/projects,SO.BPMN,domain2:audit,MSO
+aai,b7281fc8-94bc-4475-91c0-9287f1c06983,2021-03-28T21:03:43.809Z,/aai/v23/business/projects,SO.BPMN,domain2:audit,MSO
+aai,b7281fc8-94bc-4475-91c0-9287f1c06983,2021-03-28T21:03:43.972Z,/aai/v23/business/lines-of-business,SO.BPMN,domain2:metrics,MSO
+aai,b7281fc8-94bc-4475-91c0-9287f1c06983,2021-03-28T21:03:44.132Z,/aai/v23/network/generic-vnfs,SO.BPMN,domain2:audit,MSO
+aai,b7281fc8-94bc-4475-91c0-9287f1c06983,2021-03-28T21:03:45.461Z,/aai/v23/nodes/service-instances,SO.BPMN,domain2:audit,MSO
+aai,b7281fc8-94bc-4475-91c0-9287f1c06983,2021-03-28T21:03:46.771Z,/aai/v23/business/customers,SO.BPMN,domain2:metrics,MSO
+sdncp,b7281fc8-94bc-4475-91c0-9287f1c06983,2021-03-28T21:03:47.358Z,/restconf/operations/GENERIC-RESOURCE-API:vf-module-topology-operation/,m32508@prod.mso.ecomp.att.com,domain2:audit,MSO
+mso,b7281fc8-94bc-4475-91c0-9287f1c06983,2021-03-28T21:03:48.152Z,WorkflowMessage/SDNCCallback/47ca14e4-2c49-4f7f-be1a-566b7b59407d,m18382@prod.sdncp.ecomp.att.com,domain2:audit,SDNCP

@@ -1,0 +1,24 @@
+@startuml
+title Processed UML Sequence Chart (audit_log_records.csv)
+participant LYNKIT_VID order 0
+participant MSO order 1
+participant AAI order 2
+participant SDNCP order 3
+participant OPENSTACK order 4
+participant PINC order 5
+participant NARAD order 6
+MSO->AAI : 1 Inventory
+LYNKIT_VID->MSO : 2 
+SDNCP->AAI : 3 
+SDNCP->MSO : 4 
+MSO->OPENSTACK : 5 Instantiate Service
+LYNKIT_VID->MSO : 6 
+MSO->AAI : 7 Inventory
+SDNCP->MSO : 8 
+MSO->SDNCP : 9 VF-Module Assignment
+MSO->PINC : 10 Config Network Fibric
+MSO->NARAD : 11 Inventory
+SDNCP->NARAD : 12 
+PINC->MSO : 13 
+SDNCP->MSO : 14 
+@enduml

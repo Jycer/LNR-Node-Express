@@ -1,0 +1,19 @@
+@startuml
+title Remove redundant Logs
+participant LYNKIT_VID order 0
+participant MSO order 1
+participant AAI order 2
+participant SDNCP order 3
+participant OPENSTACK order 4
+participant PINC order 5
+participant NARAD order 6
+LYNKIT_VID->MSO : 1 
+MSO->AAI : 2 Inventory
+MSO->AAI : 3 Inventory
+MSO->AAI : 4 Inventory
+MSO->AAI : 5 Inventory
+MSO->AAI : 6 Inventory
+MSO->AAI : 7 Inventory
+MSO->SDNCP : 8 VF-Module Assignment
+SDNCP->MSO : 9 
+@enduml

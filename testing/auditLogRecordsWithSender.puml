@@ -1,0 +1,29 @@
+@startuml
+title Audit Log Reocrds with Sender Name
+participant LYNKIT_VID order 0
+participant MSO order 1
+participant AAI order 2
+participant SDNCP order 3
+participant OPENSTACK order 4
+participant PINC order 5
+participant NARAD order 6
+LYNKIT_VID->MSO : 1 
+MSO->MSO : 2 
+MSO->MSO : 3 
+MSO->AAI : 4 Inventory
+MSO->MSO : 5 
+MSO->AAI : 6 Inventory
+MSO->AAI : 7 Inventory
+MSO->AAI : 8 Inventory
+MSO->AAI : 9 Inventory
+MSO->AAI : 10 Inventory
+MSO->AAI : 11 Inventory
+MSO->MSO : 12 
+MSO->AAI : 13 Inventory
+MSO->AAI : 14 Inventory
+MSO->MSO : 15 
+MSO->MSO : 16 
+MSO->SDNCP : 17 VF-Module Assignment
+SDNCP->SDNCP : 18 
+SDNCP->MSO : 19 
+@enduml
