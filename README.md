@@ -8,7 +8,7 @@
 * Clone project repository
 > ``` git clone https://github.com/Jycer/LNR-Node-Express.git```
 
-* Install the dependencies in the local
+* Install the dependencies
 > ```npm install```
 
 
